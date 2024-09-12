@@ -174,43 +174,43 @@
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
 
-##########################################################################################
-# #addition
-print(2+1)
-# #multiplication
-print(2*2)
-# #division
-print(6/2)
-# #modulo
-print(7%4) #remainder of 7 divied by 4
-# #powers
-print(2**3) # 2 to the power of 3
-# #get the max and min of a number
-print("the max of 2 and 3 is",max(2,3))
-print("the min of 2 and 3 is", min(2,3))
-#min meansw thwe lowest number
+# ##########################################################################################
+# # #addition
+# print(2+1)
+# # #multiplication
+# print(2*2)
+# # #division
+# print(6/2)
+# # #modulo
+# print(7%4) #remainder of 7 divied by 4
+# # #powers
+# print(2**3) # 2 to the power of 3
+# # #get the max and min of a number
+# print("the max of 2 and 3 is",max(2,3))
+# print("the min of 2 and 3 is", min(2,3))
+# #min meansw thwe lowest number
 
-#round a number
-print("round 3.9 is",round(3.9))
-# # absolute value
-# it will always be positive
-print("the absolute value of -3 is", 2 + 10 * 10 + 3)
-# # order of operations
-# it means do the multipliaction fist
-# then so addition
+# #round a number
+# print("round 3.9 is",round(3.9))
+# # # absolute value
+# # it will always be positive
+# print("the absolute value of -3 is", 2 + 10 * 10 + 3)
+# # # order of operations
+# # it means do the multipliaction fist
+# # then so addition
 
-# #to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-print("the floor of 3.7 is", floor(3.7))
-# floor method means round down
-# #ceil method
-print("the ceil of 3.7 is",ceil(3.7))
-# ceil means round up
-# #sqrt method
-print("the floor of 7.5 is", floor(7.5))
-print("the ceil of 7.5 is",ceil(7.5))
+# # #to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print("the floor of 3.7 is", floor(3.7))
+# # floor method means round down
+# # #ceil method
+# print("the ceil of 3.7 is",ceil(3.7))
+# # ceil means round up
+# # #sqrt method
+# print("the floor of 7.5 is", floor(7.5))
+# print("the ceil of 7.5 is",ceil(7.5))
 
 
 
@@ -232,29 +232,36 @@ print("the ceil of 7.5 is",ceil(7.5))
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
 # #how do we get input from users?
-# input("what is your name?")
-name = input("What is your Name?")
-print("hello", name)
-# # basic math calculator
-# #ask the user for 2 numbers
-num1 = int(input ("enter a number:"))
-num2 = int(input("enter another number:"))
-# # print out a statement where you:
-# # add them together
-print( num1 + num2)
-# #multiply
-print( num1 * num2)
-# # find the max number
-print(max(num1,num2))
-# # find the remainder of the numbers
-print(num1% num2)
-# #round one number
-print(round(num1))
+# # input("what is your name?")
+# name = input("What is your Name?")
+# print("hello", name)
+# # # basic math calculator
+# # #ask the user for 2 numbers
+# num1 = int(input ("enter a number:"))
+# num2 = int(input("enter another number:"))
+# # # print out a statement where you:23
+# # # add them together
+# print( num1 + num2)
+# # #multiply
+# print( num1 * num2)
+# # # find the max number
+# print(max(num1,num2))
+# # # find the remainder of the numbers
+# print(num1% num2)
+# # #round one number
+# print(round(num1))
 
 
+number_1 = int(input("Enter a Number:"))
+number_2 = int(input("Enter another Number:"))
 
+print(number_1 - number_2)
+print(number_1 / number_2)
+print(min(number_1, number_2))
+print(number_1 ** 3)
+print(ceil(number_2))
 
-
+print(floor(number_1))
 
 
 ##########################################################################################
